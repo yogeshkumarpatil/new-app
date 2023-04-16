@@ -1,19 +1,34 @@
 import logo from "./logo.svg";
 import "./App.css";
 
- function App(props) {
-    return (
-        <>
-            <h1>Learing Never Ends</h1>
-            <App2 />
-        </>
-    );
+import React, {Component} from "react";
+
+export  class App extends Component {
+    render() {
+        return (
+            <>
+                <h1>Yogesh Patil</h1>
+                <h1>Learning Never Ends</h1>
+            </>
+        );
+    }
 }
 
- function App2(props) {
-    return <h1>LNE</h1>;
-}
+// import React from 'react';
 
-export default App;
+// class App extends React.Component
+// {
+//     render(){
+//         return(
+//             <h1>Yogesh Patil</h1>
+//         )
+//     }
+// }
 
- export {App, App2};
+// export function App2(props) {
+//   return (
+//     <h1>Learing Never Ends</h1>
+//   );
+// }
+
+// export default App;
