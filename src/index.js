@@ -8,17 +8,10 @@ import HelloMessage from './HelloMessage';
 import House from './House';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-let a = "Amir";
+const friends = ["Ganesh ", "Ram ", "Shyam"];
 root.render(
  <React.StrictMode>
-  {/* <HelloMessage name={a} age="29" >
-    <p>Children Element 1</p>
-  </HelloMessage>
-  <HelloMessage name="Patil" age="30">
-    <button type="button" value="Click">Click</button>
-  </HelloMessage>
-  <HelloMessage name="Amit" age="31"/> */}
-  <House />
+  <App  isMarried={false} arr={friends}/>
  </React.StrictMode>
 );
 
