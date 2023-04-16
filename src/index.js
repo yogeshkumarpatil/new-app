@@ -1,17 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import User from './User';
+import New,{App2} from './App';
 import reportWebVitals from './reportWebVitals';
-import HelloMessage from './HelloMessage';
-import House from './House';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
  <React.StrictMode>
-  <App name="Yogesh" age={29}/>
+  <New />
+  <App2 />
  </React.StrictMode>
 );
 
