@@ -8,10 +8,10 @@ import HelloMessage from './HelloMessage';
 import House from './House';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const friends = ["Ganesh ", "Ram ", "Shyam"];
+
 root.render(
  <React.StrictMode>
-  <App  isMarried={false} arr={friends}/>
+  <App name="Yogesh" age={29}/>
  </React.StrictMode>
 );
 
