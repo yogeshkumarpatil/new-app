@@ -1,17 +1,17 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import Student from "./Student";
-import Customer from "./Customer";
-import Employee from "./Employee";
-import reportWebVitals from "./reportWebVitals";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import ClickFunction from './ClickFunction';
+import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-    <React.StrictMode>
-        <Customer name="Kishor" age={33} />
-    </React.StrictMode>
+ <React.StrictMode>
+  <ClickFunction name="Amit Chavan"/>
+ </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
