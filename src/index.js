@@ -7,13 +7,11 @@ import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-let a = "Ganesh Variable";
+
 root.render(
  <React.StrictMode>
   
-  <MyClass name={a}>
-    <h2>Child No. 1</h2>
-  </MyClass>
+  <MyClass name="Yinod" age={26} />
 
 
   {/* <MyClass name="Mitesh" >
