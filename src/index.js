@@ -1,16 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import {App} from './App';
+import App from './App';
+import {MyClass} from './MyClass';
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
+let a = "Ganesh Variable";
 root.render(
  <React.StrictMode>
-  <App  />
-  {/* <App2 /> */}
+  
+  <MyClass name={a}>
+    <h2>Child No. 1</h2>
+  </MyClass>
+
+
+  {/* <MyClass name="Mitesh" >
+    <button>Submit</button>
+  </MyClass>
+  <MyClass name="Vishal" >
+    <ol>
+        <li>Ali</li>
+        <li>Yogesh</li>
+        <li>Manish</li>
+    </ol>
+  </MyClass> */}
  </React.StrictMode>
 );
 
