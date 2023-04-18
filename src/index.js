@@ -1,17 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import ClickFunction from './ClickFunction';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import BindingEvent from "./BindingEvent";
+import reportWebVitals from "./reportWebVitals";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
- <React.StrictMode>
-  <ClickFunction name="Amit Chavan"/>
- </React.StrictMode>
+    <div className="App">
+        <BindingEvent />
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
