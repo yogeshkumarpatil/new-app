@@ -1,16 +1,18 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import BindingEvent from "./BindingEvent";
-import reportWebVitals from "./reportWebVitals";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+import Mounting1 from './Mounting1';
+import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-    <div className="App">
-        <BindingEvent />
-    </div>
+<div className='App'>
+  <Mounting1 city="Sangli"/>
+  </div>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
