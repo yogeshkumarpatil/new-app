@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Mounting1 from './Mounting1';
+import Personseond1 from './Personseond1';
 import reportWebVitals from './reportWebVitals';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
-<div className='App'>
-  <Mounting1 city="Sangli"/>
+ <div className='App'>
+  <Personseond1 city="Madhavnagar"/>
   </div>
 
 );
