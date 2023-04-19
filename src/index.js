@@ -5,13 +5,15 @@ import App from './App';
 import Personseond1 from './Personseond1';
 import ParentComponent from './ParentComponent'
 import reportWebVitals from './reportWebVitals';
+import NewComponent from './NewComponent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
  <div className='App'>
-  <ParentComponent />
+  {/* <App /> */}
+  <NewComponent />
   </div>
 
 );
