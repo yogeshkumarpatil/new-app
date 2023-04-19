@@ -1,21 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import Personseond1 from './Personseond1';
-import ParentComponent from './ParentComponent'
-import reportWebVitals from './reportWebVitals';
-import NewComponent from './NewComponent';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Students from "./Students";
+import reportWebVitals from "./reportWebVitals";
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
- <div className='App'>
-  {/* <App /> */}
-  <NewComponent />
-  </div>
-
+    <div className="App">
+        <Students />
+    </div>
 );
 
 // If you want to start measuring performance in your app, pass a function
