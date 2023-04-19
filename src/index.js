@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import Personseond1 from './Personseond1';
-import ParentClass from './ParentClass'
+import ParentComponent from './ParentComponent'
 import reportWebVitals from './reportWebVitals';
 
 
@@ -11,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
  <div className='App'>
-  <ParentClass />
+  <ParentComponent />
   </div>
 
 );
