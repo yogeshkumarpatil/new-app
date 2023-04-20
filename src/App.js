@@ -1,15 +1,13 @@
 
 import "./App.css";
-import Stylesheet1 from './Stylesheet1';
-import  Stylesheet2 from './Stylesheet2';
+import BsComponent from './BsComponent'
 
 
 
 function App() {
   return (
     <div classNmae='App '>
-      <Stylesheet1 />
-      <Stylesheet2 />
+      <BsComponent />
     </div>
   );
 }
