@@ -19,27 +19,27 @@ export default class BindingEvent extends Component {
 
 
 
-    //with useing array finction in function
-    // Handelevent = () => {
-    //     // console.log("India", this)
-    //     this.setState({
-    //         name:"Square",
-    //         age: 18,
-    //         address: "Sangli"
-    //     });
-    // }
-
-
-
-    //fourth method
-    Handelevent() {
+    // with useing array finction in function
+    Handelevent = () => {
         // console.log("India", this)
         this.setState({
-            name: "Square",
+            name:"Square",
             age: 18,
-            address: "Sangli",
+            address: "Sangli"
         });
     }
+
+
+
+    // //fourth method
+    // Handelevent() {
+    //     // console.log("India", this)
+    //     this.setState({
+    //         name: "Square",
+    //         age: 18,
+    //         address: "Sangli",
+    //     });
+    // }
 
     render() {
         return (
@@ -49,8 +49,8 @@ export default class BindingEvent extends Component {
                 <h1>{this.state.address}</h1>
                 {/* <button type="button" onClick={this.Handelevent} >Click</button> // First Method used in Constructor method */}
                 {/* <button type="button" onClick={this.Handelevent.bind(this)} >Click</button> //second Method used in render method */}
-                {/* <button type="button" onClick={this.Handelevent}>  //thired method used with arrow functon  */}
-                <button type="button" onClick={ () => this.Handelevent()} >Click</button>                              
+                <button type="button" onClick={this.Handelevent}> click </button>
+                {/* <button type="button" onClick={ () => this.Handelevent()} >Click</button>                               */}
             </div>
         );
     }

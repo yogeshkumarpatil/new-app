@@ -7,7 +7,7 @@ export default class NewComponent extends Component {
       super(props)
     
       this.state = {
-         name : "Yogdesh"
+         name : "Yogesh"
       }
     }
     

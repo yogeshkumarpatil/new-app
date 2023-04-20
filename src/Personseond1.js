@@ -28,7 +28,7 @@ export default class Personseond1 extends Component {
         console.log("shouldComponentUpdate..");
         console.log(nextProps);
         console.log(nextState);
-        return false
+        return true
     }
 
     getSnapshotBeforeUpdate(prevProps, prevState){

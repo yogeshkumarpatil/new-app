@@ -7,7 +7,7 @@ export default class Mounting2 extends Component {
       this.state = {
          name : "Mangesh Mounting_2"
       }
-      console.log("Mounting 1 Constructor Invode Mounting_2")
+      console.log("Mounting 2 Constructor Invode Mounting_2")
     }
 
     static getDerivedStateFromProps(props, state){        
