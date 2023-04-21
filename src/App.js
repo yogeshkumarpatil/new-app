@@ -1,14 +1,12 @@
 
 import "./App.css";
 import BsComponent from './BsComponent'
-import USComponent from './USComponent'
-
-
+import USWithObject from './USWithObject'
 
 function App() {
   return (
-    <div classNmae='App '>
-      <USComponent />
+    <div classNmae='App'>
+      <USWithObject />
     </div>
   );
 }
