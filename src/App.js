@@ -1,13 +1,11 @@
 import {createContext, useState} from "react";
 import "./App.css";
-import ControlledFunctionSecond from "./ControlledFunctionSecond";
-
+import FunctionInputs from "./FunctionInputs";
 
 function App() {
-
     return (
         <div classNmae="App">
-         <ControlledFunctionSecond />
+            <FunctionInputs />
         </div>
     );
 }
