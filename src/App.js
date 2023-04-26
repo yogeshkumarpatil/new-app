@@ -1,15 +1,10 @@
-import {createContext, useState} from "react";
 import "./App.css";
-import FunctionInputs from "./FunctionInputs";
-import OtherInputs from "./OtherInputs";
+import MultipleCheck from "./MultipleCheck";
 
 function App() {
     return (
         <div classNmae="App">
-
-        <OtherInputs />
-        {/* this FunctionInputs is of video no 46 */}
-            {/* <FunctionInputs /> */}
+            <MultipleCheck />
         </div>
     );
 }
