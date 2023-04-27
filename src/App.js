@@ -1,10 +1,12 @@
 import "./App.css";
-import MultipleCheck from "./MultipleCheck";
+import CallbackRefComp from "./CallbackRefComp";
+
+
 
 function App() {
     return (
         <div classNmae="App">
-            <MultipleCheck />
+            <CallbackRefComp />
         </div>
     );
 }
