@@ -1,12 +1,12 @@
 import "./App.css";
-import CallbackRefComp from "./CallbackRefComp";
+import HookuseRef from "./HookuseRef";
 
 
 
 function App() {
     return (
         <div classNmae="App">
-            <CallbackRefComp />
+            <HookuseRef />
         </div>
     );
 }
