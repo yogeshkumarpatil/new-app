@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 
 function ControlledFunctionSecond() {
     const [name, setName]=useState("")
+    
     const handleSubmission = (e) => {
      e.preventDefault()
       console.log(e.target[0].value);

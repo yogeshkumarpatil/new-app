@@ -34,5 +34,4 @@ function OtherInputs() {
     </div>
   )
 }
-
 export default OtherInputs

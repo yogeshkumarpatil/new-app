@@ -11,7 +11,7 @@ function HookuseRef() {
         console.log(lastRef); 
         firstRef.current.focus();       
         firstRef.current.style.color = 'red';
-        firstRef.current.style.backgroundColor = 'yellowdsrfwswf';
+        firstRef.current.style.backgroundColor = 'yellow';
         // console.log(newRef.current.innerHTML);
     });
 

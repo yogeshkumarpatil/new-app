@@ -20,7 +20,7 @@ export default class ControlledForm extends Component {
     };
 
     handleFormSubmisstionYogesh = (e) => {
-        e.preventDefault()
+        e.preventDefault();
         console.log(e.target[0].value.toUpperCase());
     };
 
