@@ -1,12 +1,10 @@
 import "./App.css";
-import HookuseRef from "./HookuseRef";
-
-
+import Validation from "./Validation";
 
 function App() {
     return (
-        <div classNmae="App">
-            <HookuseRef />
+        <div>
+            <Validation />
         </div>
     );
 }
