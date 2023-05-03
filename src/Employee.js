@@ -14,7 +14,7 @@ export default class Employee extends Component {
             name: "Welcome to our channel class component state worked!",
             age: 22,
             surname: "Chavan",
-            // name: this.state.name +1
+        
         });
     }
     render() {
