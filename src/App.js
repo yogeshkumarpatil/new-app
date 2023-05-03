@@ -1,10 +1,12 @@
+
 import "./App.css";
-import Validation from "./Validation";
+import FormikForm from "./FormikForm";
+
 
 function App() {
     return (
         <div>
-            <Validation />
+            <FormikForm />
         </div>
     );
 }
