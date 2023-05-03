@@ -5,18 +5,9 @@ export default class Employee extends Component {
         name: "without constructor is worked",
         age: 23,
         surname: "Patil",
-        // name : 1
+        
     }
 
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-    //         name : this.props.name,
-    //         age : 23,
-    //         surname: "Patil"
-    //         // name : 1
-    //     }
-    // }
 
     changeName() {
         this.setState({
