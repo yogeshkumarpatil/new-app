@@ -1,10 +1,14 @@
 import {useFormik} from "formik";
 import React from "react";
+import { FormSchema } from "./FormSchema";
 
 function FormikForm() {
     const formInitialValues = {
-        name: "",
-        email: "",
+        name:"",
+        email:"",
+        age:"",
+        pass:"",
+        cpass:""
     };
     // const formik = useFormik({
     //     initialValues: formInitialValues,
@@ -13,11 +17,16 @@ function FormikForm() {
     //         console.log(values.email);
     //     }
     // });
-    const {handleSubmit,handleChange,values} = useFormik({
+    const {handleSubmit,handleChange, handleBlur, touched, values,errors} = useFormik({
         initialValues: formInitialValues,
-        onSubmit:(values) => {
+        validationSchema: FormSchema,
+        onSubmit:(values,action) => {
             console.log(values.name);
             console.log(values.email);
+            console.log(values.age);
+            console.log(values.pass);
+            console.log(values.cpass);
+            action.resetForm();            
         }
     });
 
@@ -26,10 +35,30 @@ function FormikForm() {
             <h1>Formik Demo Yogi</h1>
             <form onSubmit={handleSubmit}>
                 <label htmlFor="">Enter Name:</label>
-                <input type="text" name="name" onChange={handleChange} value={values.name} />
-                <br /> <br />
+                <input type="text" name="name" onBlur={handleBlur} onChange={handleChange} value={values.name} />
+                <br />
+                {errors.name && touched.name ? ( <span style={{color:'red'}}>{errors.name}</span>): null}
+                
+                <br /> <br />                
                 <label htmlFor="">Enter Email:</label>
-                <input type="text" name="email" onChange={handleChange} value={values.email} />
+                <input type="text" name="email" onBlur={handleBlur} onChange={handleChange} value={values.email} />
+                <br />
+                {errors.email && touched.email ? ( <span style={{color:'red'}}>{errors.email}</span>): null}
+                <br /> <br />
+                <label htmlFor="">Enter Age:</label>
+                <input type="text" name="age" onBlur={handleBlur} onChange={handleChange} value={values.age} />
+                <br />
+                {errors.age && touched.age ? ( <span style={{color:'red'}}>{errors.age}</span>): null}
+                <br /> <br />
+                <label htmlFor="">Enter Password:</label>
+                <input type="text" name="pass" onBlur={handleBlur} onChange={handleChange} value={values.pass} />
+                <br />
+                {errors.pass && touched.pass ? ( <span style={{color:'red'}}>{errors.pass}</span>): null}
+                <br /> <br />
+                <label htmlFor="">Enter Confirm Password:</label>
+                <input type="text" name="cpass" onBlur={handleBlur} onChange={handleChange} value={values.cpass} />
+                <br />
+                {errors.cpass && touched.cpass ? ( <span style={{color:'red'}}>{errors.cpass}</span>): null}
                 <br /> <br />
                 <input type="submit" value="Submit" />
             </form>

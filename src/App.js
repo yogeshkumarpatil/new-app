@@ -1,12 +1,11 @@
-
 import "./App.css";
-import FormikForm from "./FormikForm";
+import FormikForm2 from "./FormikForm2";
 
 
 function App() {
     return (
         <div>
-            <FormikForm />
+            <FormikForm2 />
         </div>
     );
 }
