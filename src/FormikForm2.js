@@ -73,11 +73,11 @@ function FormikForm2() {
                 <option value="UK">UK</option>
             </Field>
             <RedErrorMessage name='country' />
-
+            
             <br /> <br />
             <label htmlFor="">Comments :&nbsp; </label> 
             <Field as="textarea" name="comment" />
-            <RedErrorMessage name='comment' />
+            <RedErrorMessage name='hobby' />
 
             <br /> <br />
             <button type='submit'>Submit</button>

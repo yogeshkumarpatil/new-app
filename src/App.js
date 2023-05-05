@@ -1,11 +1,11 @@
 import "./App.css";
-import FormikForm2 from "./FormikForm2";
+import GridBS from "./GridBS";
 
 
 function App() {
     return (
         <div>
-            <FormikForm2 />
+            <GridBS />
         </div>
     );
 }
