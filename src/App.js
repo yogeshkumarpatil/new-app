@@ -1,11 +1,11 @@
 import "./App.css";
-import GridBS from "./GridBS";
+import MyNavbar from "./MyNavbar";
 
 
 function App() {
     return (
         <div>
-            <GridBS />
+            <MyNavbar />
         </div>
     );
 }

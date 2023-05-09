@@ -1,0 +1,52 @@
+import React from 'react'
+import { Col, Container, Nav, NavDropdown, Navbar, Row } from 'react-bootstrap'
+
+function MyNavbar() {
+  return (
+    <>
+        <Container>
+            <Row>
+                <Col>
+                    <Navbar fixed='top' variant='dark' bg='success' expand='md'>
+                        <Container>
+                            <Navbar.Brand href='#'>
+                                {/* My Webstie */}
+                                <img src='logo192.png' 
+                                    height='30' width='30'
+                                    className='align-top'
+                                />
+                            </Navbar.Brand>
+                            <Navbar.Toggle aria-controls='my-nav'/>
+                            <Navbar.Collapse id='my-nav'>
+                            <Nav className='me-auto fw-bold'>
+                                <Nav.Link href='#'>Home</Nav.Link>
+                                    <NavDropdown title='Service' id='my-nav'>
+                                    <NavDropdown.Header>Heading One</NavDropdown.Header>
+                                        <NavDropdown.Item href='#'>Service 1</NavDropdown.Item>
+                                        <NavDropdown.Item href='#'>Service 2</NavDropdown.Item>
+                                        <NavDropdown.Divider />
+                                        <NavDropdown.Header>Heading Two</NavDropdown.Header>
+                                        <NavDropdown.Item href='#'>Service 3</NavDropdown.Item>
+                                    </NavDropdown>
+                                <Nav.Link href='#'>About</Nav.Link>
+                                <Nav.Link href='#'>Contact</Nav.Link>
+                            </Nav>
+                            <Navbar.Text>
+                                Sign In Here <a href='#'> Log In</a>
+                            </Navbar.Text>
+                            </Navbar.Collapse>
+                        </Container>
+                    </Navbar>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h2>This is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom TextThis is a ramdom Text This is a ramdom TextThis is a ramdom TextThis is a ramdom Text</h2>
+                </Col>
+            </Row>
+        </Container>
+    </>
+  )
+}
+
+export default MyNavbar
