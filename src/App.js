@@ -1,12 +1,10 @@
 import "./App.css";
-// import GridBS from "./GridBS";
-import Reducers from "./Reducers";
-
+import FetchAPI from "./FetchAPI";
 
 function App() {
     return (
         <div>
-            <Reducers />
+            <FetchAPI />
         </div>
     );
 }
