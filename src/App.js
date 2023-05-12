@@ -1,11 +1,12 @@
 import "./App.css";
-import GridBS from "./GridBS";
+// import GridBS from "./GridBS";
+import Reducers from "./Reducers";
 
 
 function App() {
     return (
         <div>
-            <GridBS />
+            <Reducers />
         </div>
     );
 }
